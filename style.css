@@ -12,11 +12,6 @@
   margin-top: 15px;
 }
 
-body{
-  padding-top: 15px;
-
-}
-
 [class*="col-"], footer {
   color: #F5F576;
   text-align: center;
@@ -35,7 +30,16 @@ body{
   height: 50px;
   border-radius: 10px;
 }
+body{
+  padding-top: 15px;
+  }
 
+h3 {
+  font-size: 18px;
+}
+ul {
+  list-style-type: none;
+}
 .formation{
   margin-top: 20px;
   border: 12px solid black;
