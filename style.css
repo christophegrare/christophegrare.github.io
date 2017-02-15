@@ -17,7 +17,7 @@
   text-align: center;
   list-style-type: none;
 }
-
+/*bouton */
 .btn{
   background-color: #59590B;
   border: 2px solid #AF3BD9;
@@ -40,6 +40,7 @@ h3 {
 ul {
   list-style-type: none;
 }
+/*point ancre*/
 .formation{
   margin-top: 20px;
   border: 12px solid black;
@@ -78,6 +79,33 @@ ul {
   background-color: #3B3B2C;
   color: #F5F576;
 }
-a:hover{
+.col-md-3 a:hover{
   color: #7EEB10;
+}
+/*barre animation 2 couleurs*/
+.div-couleur {
+    background: #59590B;
+    border-radius:5px;
+    -moz-transition: all .5s;
+}
+.div-couleur:hover {
+    background: #7EEB10;
+    border-radius: 50px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
