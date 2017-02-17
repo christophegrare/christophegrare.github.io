@@ -17,6 +17,10 @@
   text-align: center;
   list-style-type: none;
 }
+img{
+  width: 50px;
+}
+
 /*bouton */
 .btn{
   background-color: #59590B;
