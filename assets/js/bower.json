@@ -1,0 +1,24 @@
+{
+  "name": "curiculum_vitae",
+  "homepage": "https://github.com/christophegrare/christophegrare.github.io",
+  "authors": [
+    "christophegrare <grarechristophe1@gmail.com>"
+  ],
+  "description": "cv_numerique",
+  "main": "index.html",
+  "keywords": [
+    "cv"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "^3.2.0",
+    "bootstrap": "^3.3.7"
+  }
+}
