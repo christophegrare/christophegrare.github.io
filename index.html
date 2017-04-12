@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
-<body>
+<body ng-app>
   <div class="container">
     <header class="row">
       <div class="col-md-12">
@@ -33,7 +33,7 @@
       <div class="row">
         <div class="col-md-12 btn-group btn-group-justified">
           <div class="col-md-3">
-            <a class="btn btn-lg" href="#formation">Formation</a>
+            <a class="btn btn-lg" href="#formation" ng-show="form">Formation</a>
           </div>
           <div class="col-md-3">
             <a class="btn btn-lg" href="#skill">Compétences</a>
@@ -49,7 +49,7 @@
     </div>
     <section class="row">
       <div class="col-md-6">
-        <article class="formation">
+        <article class="formation" ng-init="">
           <h2 id="formation">Formation</h2>
           <p>Apprenant developeur web au centre de formation <a href="http://formation.novei.fr/"><img src="assets/photo/logo_e2n1-e1457183164140.jpg" alt=""></a><br>BEP CAP action commercial et comptable.</p>
         </article>
@@ -97,7 +97,7 @@
         <article class="liens">
           <a href="mailto:grarechristophe1@gmail.com">Me contacter par Mail</a><br/>
           <a href="https://github.com/christophegrare">Mon GITHUB</a><br/>
-          <a href="christopheCv.pdf">cv.pdf</a><br/>
+          <a href="cv.pdf">cv.pdf</a><br/>
           <a href="#accueil">accueil</a>
         </article>
       </div>
