@@ -93,12 +93,12 @@ ul {
 }
 /*barre animation 2 couleurs*/
 .div-couleur {
-    background: #59590B;
+    background: #3B3B0B;
     border-radius:5px;
     -moz-transition: all .5s;
 }
 .div-couleur:hover {
-    background: #7EEB10;
+    background: #59590B;
     border-radius: 50px;
 }
 #home{
